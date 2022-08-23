@@ -83,4 +83,4 @@ total_cover <- castilleja_ed %>% group_by(Time,Treatment) %>% summarize(mean_tot
   geom_point() +
   geom_pointrange(aes(ymin=mean_total_cover-total_cover_se,ymax=mean_total_cover+total_cover_se)) +
   theme_bw()
-
+total_cover
